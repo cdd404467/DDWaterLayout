@@ -14,6 +14,17 @@ class MainVC: UIViewController {
 
         view.backgroundColor = .white
         title = "首页"
+        
+        
+        let tagView = WaterTagView()
+//        tagView.frame = CGRectMake(0, 200, self.view.frame.size.width, 300)
+        view.addSubview(tagView)
+        tagView.snp.makeConstraints { make in
+            make.left.equalTo(0)
+            make.top.equalTo(200)
+            make.right.equalTo(-50)
+            make.height.equalTo(300)
+        }
     }
     
 

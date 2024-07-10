@@ -7,8 +7,7 @@ target 'DDWaterLayout' do
   use_frameworks!
 
 
-#  pod 'SnapKit'
-  pod 'Masonry'
+  pod 'SnapKit'
 
 
 
