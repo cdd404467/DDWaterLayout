@@ -13,9 +13,7 @@ class WaterFlowLayout: UICollectionViewFlowLayout {
     
     var contentHeight: CGFloat = 0
     
-//    weak var delegate: UICollectionViewDelegateFlowLayout?
-    private
-    var delegate: UICollectionViewDelegateFlowLayout? {
+    private var delegate: UICollectionViewDelegateFlowLayout? {
         collectionView?.delegate as? UICollectionViewDelegateFlowLayout
     }
     
